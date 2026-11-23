@@ -1,0 +1,381 @@
+
+/* =========================================================
+   MEDIBRIDGE - HOMEPAGE
+   ========================================================= */
+
+
+/* HERO */
+.hero {
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    padding: 80px 8%;
+    background:
+        linear-gradient(rgba(18, 60, 86, 0.72), rgba(18, 60, 86, 0.72)),
+        url("../images/hero-hospital.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero-label {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #c7f2f4;
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #edf6f8;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+/* SECTION HEADINGS */
+.section-heading {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.section-heading h2 {
+    font-size: 36px;
+    color: #123c56;
+    margin: 15px 0;
+}
+
+.section-heading p {
+    color: #64748b;
+    line-height: 1.7;
+}
+
+.section-label {
+    display: inline-block;
+    color: #168a96;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+/* QUICK ACCESS */
+.quick-access {
+    padding: 85px 8%;
+    background: #fff;
+}
+
+.quick-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+    margin-top: 45px;
+}
+
+.quick-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+    padding: 28px 24px;
+    background: #fff;
+    border: 1px solid #e2eaee;
+    border-radius: 12px;
+    min-height: 230px;
+    transition: 0.3s ease;
+}
+
+.quick-card:hover {
+    transform: translateY(-5px);
+    border-color: #168a96;
+    box-shadow: 0 12px 28px rgba(18, 60, 86, 0.08);
+}
+
+.quick-icon {
+    font-size: 30px;
+    color: #168a96;
+    margin-bottom: 18px;
+}
+
+.quick-card h3 {
+    color: #123c56;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.quick-card p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.card-link {
+    color: #168a96;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: auto;
+}
+
+
+/* ABOUT MEDIBRIDGE */
+.home-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 55px;
+    padding: 85px 8%;
+    background: #f5f7f8;
+}
+
+.home-about-image img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.home-about-content h2 {
+    font-size: 36px;
+    color: #123c56;
+    margin: 15px 0 20px;
+}
+
+.home-about-content p {
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.text-link {
+    color: #168a96;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.text-link:hover {
+    color: #123c56;
+}
+
+
+/* FEATURED SERVICES */
+.featured-services {
+    padding: 85px 8%;
+    background: #fff;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    margin-top: 45px;
+}
+
+.service-card {
+    overflow: hidden;
+    border: 1px solid #e2eaee;
+    border-radius: 12px;
+    background: #fff;
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(18, 60, 86, 0.08);
+}
+
+.service-card img {
+    display: block;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.service-card-content {
+    padding: 24px;
+}
+
+.service-card-content h3 {
+    color: #123c56;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.service-card-content p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.section-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/* HOW MEDIBRIDGE WORKS */
+.how-section {
+    padding: 85px 8%;
+    background: #e8f5f7;
+}
+
+.how-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    margin-top: 45px;
+}
+
+.how-card {
+    text-align: center;
+    padding: 30px 24px;
+}
+
+.how-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    margin: 0 auto 22px;
+    border-radius: 50%;
+    background: #168a96;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.how-card h3 {
+    color: #123c56;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.how-card p {
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* CALL TO ACTION */
+.home-cta {
+    padding: 85px 8%;
+    background: #123c56;
+    text-align: center;
+    color: #fff;
+}
+
+.cta-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.home-cta .section-label {
+    color: #8dd8df;
+}
+
+.home-cta h2 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.3;
+    margin: 15px 0 20px;
+}
+
+.home-cta p {
+    color: #d7e8ef;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 1000px) {
+    .quick-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .home-about {
+        gap: 30px;
+    }
+
+    .hero h1 {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 450px;
+        padding: 60px 6%;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .home-about {
+        grid-template-columns: 1fr;
+    }
+
+    .home-about-image img {
+        height: 300px;
+    }
+
+    .quick-grid,
+    .service-grid,
+    .how-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading h2,
+    .home-about-content h2,
+    .home-cta h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons a {
+        text-align: center;
+    }
+
+    .quick-card {
+        min-height: auto;
+    }
+}

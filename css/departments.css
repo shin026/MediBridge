@@ -1,0 +1,241 @@
+
+/* =========================================================
+   MEDIBRIDGE - DEPARTMENTS PAGE - BASTA PAARALLLL!!!!!
+========================================================= */
+
+
+.department-hero {
+    padding: 90px 8%;
+    background:
+        linear-gradient(rgba(18, 60, 86, 0.78), rgba(18, 60, 86, 0.78)),
+        url("../images/hero-hospital.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+
+.department-hero-content {
+    max-width: 800px;
+}
+
+.department-hero .section-label {
+    color: #B9EEF1;
+}
+
+.department-hero h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 18px 0;
+    color: #ffffff;
+}
+
+.department-hero p {
+    max-width: 650px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #E4F2F5;
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   DEPARTMENT INTRO - intro code
+========================= */
+
+.department-intro {
+    padding: 70px 8%;
+    background: #E8F5F7;
+    text-align: center;
+}
+
+.department-intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.department-intro h2 {
+    font-size: 34px;
+    color: #123C56;
+    margin: 15px 0 20px;
+}
+
+.department-intro p {
+    font-size: 15px;
+    line-height: 1.9;
+    color: #71838D;
+}
+
+
+/* =========================
+   DEPARTMENT LIST - listahan code
+========================= */
+
+.department-list {
+    padding: 85px 8%;
+    background: #ffffff;
+}
+
+.department-list .section-heading {
+    margin-bottom: 45px;
+}
+
+.department-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+
+
+/* =========================
+   DEPARTMENT CARDS - cards na ano?
+========================= */
+
+.department-card {
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #E2EAEE;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.department-card:hover {
+    transform: translateY(-5px);
+    border-color: #168A96;
+    box-shadow: 0 12px 28px rgba(18, 60, 86, 0.08);
+}
+
+.department-icon {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: #E8F5F7;
+    color: #168A96;
+    font-size: 25px;
+    margin-bottom: 22px;
+}
+
+.department-card h3 {
+    color: #123C56;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.department-card p {
+    color: #71838D;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+.department-link {
+    color: #168A96;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: auto;
+    transition: 0.3s;
+}
+
+.department-link:hover {
+    color: #123C56;
+}
+
+
+/* =========================
+   DEPARTMENT CTA GEGEGE
+========================= */
+
+.department-cta {
+    padding: 85px 8%;
+    background: #123C56;
+    text-align: center;
+    color: #ffffff;
+}
+
+.department-cta-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.department-cta .section-label {
+    color: #8DD8DF;
+}
+
+.department-cta h2 {
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 1.3;
+    margin: 18px 0;
+}
+
+.department-cta p {
+    color: #D7E8EF;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN - SAME LANG DIN 
+========================= */
+
+@media (max-width: 1000px) {
+
+    .department-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .department-hero h1 {
+        font-size: 42px;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .department-hero {
+        padding: 65px 6%;
+    }
+
+    .department-hero h1 {
+        font-size: 34px;
+    }
+
+    .department-intro {
+        padding: 55px 6%;
+    }
+
+    .department-intro h2 {
+        font-size: 28px;
+    }
+
+    .department-list {
+        padding: 60px 6%;
+    }
+
+    .department-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .department-card {
+        padding: 25px;
+    }
+
+    .department-cta {
+        padding: 65px 6%;
+    }
+
+    .department-cta h2 {
+        font-size: 29px;
+    }
+
+}

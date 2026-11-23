@@ -1,0 +1,995 @@
+
+/* ==============================
+   SERVICES HERO
+================================= */
+
+.services-hero {
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    padding: 80px 7%;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(18, 60, 86, 0.95),
+            rgba(18, 60, 86, 0.75)
+        ),
+        url("../images/hero-hospital.jpg");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.services-hero .page-hero-content {
+    max-width: 700px;
+}
+
+.services-hero .page-hero-label {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #8FE0E5;
+    margin-bottom: 18px;
+}
+
+.services-hero h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+    line-height: 1.15;
+    color: white;
+}
+
+.services-hero p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #D7E6ED;
+    max-width: 600px;
+}
+
+
+/* ==============================
+   SERVICES INTRODUCTION
+================================= */
+
+.services-intro {
+    padding: 90px 7%;
+    background: #FFFFFF;
+}
+
+.services-intro-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 65px;
+}
+
+.services-intro-text {
+    max-width: 600px;
+}
+
+.services-intro-text .section-label {
+    display: inline-block;
+    color: #168A96;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.services-intro-text h2 {
+    font-size: 36px;
+    line-height: 1.25;
+    color: #123C56;
+    margin-bottom: 25px;
+}
+
+.services-intro-text p {
+    font-size: 15px;
+    color: #667782;
+    line-height: 1.9;
+    margin-bottom: 18px;
+}
+
+.services-intro-image {
+    height: 430px;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #E8F5F7;
+}
+
+.services-intro-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.services-intro-image:hover img {
+    transform: scale(1.04);
+}
+
+.service-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: #168A96;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.service-link:hover {
+    color: #123C56;
+    transform: translateX(4px);
+}
+
+
+/* ==============================
+   MAIN HEALTHCARE SERVICES
+================================= */
+
+.main-services {
+    padding: 90px 7%;
+    background: #F5F7F8;
+}
+
+.main-services .section-heading {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 55px;
+}
+
+.main-services .section-label {
+    display: inline-block;
+    color: #168A96;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.main-services .section-heading h2 {
+    font-size: 36px;
+    color: #123C56;
+    margin-bottom: 15px;
+}
+
+.main-services .section-heading p {
+    font-size: 15px;
+    color: #667782;
+    line-height: 1.8;
+}
+
+.main-services-grid {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.service-card {
+    background: #FFFFFF;
+    padding: 35px 30px;
+    border-radius: 16px;
+    border: 1px solid #E3ECEF;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 12px 30px rgba(18, 60, 86, 0.10);
+}
+
+.service-card-icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.emergency-icon {
+    background: #EAF5F7;
+    color: #168A96;
+}
+
+.imaging-icon {
+    background: #EAF2FB;
+    color: #326EAA;
+}
+
+.preventive-icon {
+    background: #EAF7F0;
+    color: #29956C;
+}
+
+.service-number {
+    display: block;
+    color: #B5C9D2;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.service-card h3 {
+    font-size: 23px;
+    color: #123C56;
+    margin-bottom: 12px;
+}
+
+.service-card h4 {
+    font-size: 14px;
+    color: #168A96;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #667782;
+    line-height: 1.8;
+}
+
+.service-card .service-link {
+    margin-top: 20px;
+}
+
+
+/* ==============================
+   LABORATORY SERVICES
+================================= */
+
+.laboratory-section {
+    padding: 90px 7%;
+    background: #FFFFFF;
+}
+
+.laboratory-container {
+    max-width: 1200px;
+    margin: 0 auto 100px;
+
+    display: grid;
+    grid-template-columns: 0.95fr 1.05fr;
+    align-items: center;
+    gap: 60px;
+}
+
+.laboratory-image {
+    height: 450px;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #E8F5F7;
+}
+
+.laboratory-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.laboratory-image:hover img {
+    transform: scale(1.04);
+}
+
+.laboratory-content .section-label {
+    display: inline-block;
+    color: #168A96;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.laboratory-content h2 {
+    font-size: 38px;
+    color: #123C56;
+    margin-bottom: 15px;
+}
+
+.laboratory-content h3 {
+    font-size: 18px;
+    color: #168A96;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.laboratory-content p {
+    color: #667782;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+
+/* ==============================
+   AVAILABLE LABORATORY TESTS
+================================= */
+
+.lab-tests-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.lab-tests-container .section-heading {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 50px;
+}
+
+.lab-tests-container .section-label {
+    color: #168A96;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+.lab-tests-container .section-heading h2 {
+    color: #123C56;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.lab-tests-container .section-heading p {
+    color: #667782;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.lab-tests-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.lab-test-card {
+    background: #F5F9FA;
+    border: 1px solid #E2ECEF;
+    border-radius: 14px;
+    padding: 30px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+}
+
+.lab-test-card:hover {
+    background: #EAF5F7;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(18, 60, 86, 0.08);
+}
+
+.lab-test-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    background: #168A96;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.lab-test-card h3 {
+    font-size: 19px;
+    color: #123C56;
+    margin-bottom: 12px;
+}
+
+.lab-test-card p {
+    color: #667782;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* ==============================
+   LABORATORY BENEFITS
+================================= */
+
+.laboratory-benefits {
+    max-width: 1200px;
+    margin: 100px auto 0;
+}
+
+.laboratory-benefits .section-heading {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 45px;
+}
+
+.laboratory-benefits .section-label {
+    display: inline-block;
+    color: #168A96;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.laboratory-benefits .section-heading h2 {
+    font-size: 36px;
+    color: #123C56;
+    margin-bottom: 15px;
+}
+
+.laboratory-benefits .section-heading p {
+    font-size: 15px;
+    color: #667782;
+    line-height: 1.8;
+}
+
+.laboratory-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.lab-benefit {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 22px;
+    background: #F5F9FA;
+    border: 1px solid #E2ECEF;
+    border-radius: 12px;
+}
+
+.benefit-check {
+    min-width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #DDF3F2;
+    color: #168A96;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.lab-benefit p {
+    color: #123C56;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+
+/* ==============================
+   HOW TO ACCESS OUR SERVICES
+================================= */
+
+.access-services-section {
+    padding: 90px 7%;
+    background: #F5F7F8;
+}
+
+.access-services-section .section-heading {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 55px;
+}
+
+.access-services-section .section-label {
+    display: inline-block;
+    color: #168A96;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.access-services-section .section-heading h2 {
+    color: #123C56;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.access-services-section .section-heading p {
+    color: #667782;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.access-steps-container {
+    max-width: 1000px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.access-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    padding: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E2ECEF;
+    border-radius: 15px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.access-step:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(18, 60, 86, 0.08);
+}
+
+.step-number {
+    min-width: 48px;
+    height: 48px;
+    border-radius: 12px;
+
+    background: #168A96;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.step-content h3 {
+    color: #123C56;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.step-content p {
+    color: #667782;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* ==============================
+   SERVICES FAQ
+================================= */
+
+.services-faq-section {
+    padding: 90px 7%;
+    background: #FFFFFF;
+}
+
+.services-faq-section .section-heading {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 50px;
+}
+
+.services-faq-section .section-label {
+    display: inline-block;
+    color: #168A96;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.services-faq-section .section-heading h2 {
+    font-size: 36px;
+    color: #123C56;
+    margin-bottom: 15px;
+}
+
+.services-faq-section .section-heading p {
+    color: #667782;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.faq-container {
+    max-width: 850px;
+    margin: auto;
+}
+
+.faq-item {
+    background: #FFFFFF;
+    border: 1px solid #DDE8EC;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.faq-item[open] {
+    border-color: #168A96;
+    box-shadow: 0 8px 20px rgba(18, 60, 86, 0.06);
+}
+
+.faq-item summary {
+    list-style: none;
+    cursor: pointer;
+
+    padding: 22px 25px;
+
+    color: #123C56;
+    font-size: 16px;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    content: "+";
+    color: #168A96;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faq-item[open] summary::after {
+    content: "−";
+}
+
+.faq-item p {
+    padding: 0 25px 23px;
+    color: #667782;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* ==============================
+   SERVICES CLOSING CTA
+================================= */
+
+.services-cta-section {
+    padding: 90px 7%;
+
+    background:
+        linear-gradient(
+            rgba(18, 60, 86, 0.94),
+            rgba(18, 60, 86, 0.94)
+        ),
+        url("../images/hero-hospital.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.services-cta-content {
+    max-width: 850px;
+    margin: auto;
+}
+
+.services-cta-content .section-label {
+    display: inline-block;
+    color: #65D5DF;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.services-cta-content h2 {
+    font-size: 40px;
+    line-height: 1.3;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.services-cta-content p {
+    color: #D9E8EE;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.services-cta-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.services-cta-buttons .btn-primary,
+.services-cta-buttons .btn-secondary {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+.services-cta-buttons .btn-primary {
+    background: #168A96;
+    color: #FFFFFF;
+    border: 1px solid #168A96;
+}
+
+.services-cta-buttons .btn-primary:hover {
+    background: #20A3AF;
+    border-color: #20A3AF;
+    transform: translateY(-2px);
+}
+
+.services-cta-buttons .btn-secondary {
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.services-cta-buttons .btn-secondary:hover {
+    background: #FFFFFF;
+    color: #123C56;
+}
+
+
+/* ==============================
+   RESPONSIVE DESIGN
+================================= */
+
+/* TABLET */
+
+@media (max-width: 992px) {
+
+    .services-intro-container {
+        gap: 35px;
+    }
+
+    .services-intro-text h2 {
+        font-size: 31px;
+    }
+
+    .main-services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .laboratory-container {
+        gap: 35px;
+    }
+
+    .lab-tests-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .laboratory-benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services-hero h1 {
+        font-size: 42px;
+    }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .services-hero {
+        min-height: 350px;
+        padding: 65px 6%;
+    }
+
+    .services-hero h1 {
+        font-size: 34px;
+    }
+
+    .services-hero p {
+        font-size: 14px;
+    }
+
+    .services-intro {
+        padding: 65px 6%;
+    }
+
+    .services-intro-container {
+        grid-template-columns: 1fr;
+    }
+
+    .services-intro-text h2 {
+        font-size: 27px;
+    }
+
+    .services-intro-image {
+        height: 300px;
+    }
+
+    .main-services {
+        padding: 65px 6%;
+    }
+
+    .main-services .section-heading h2 {
+        font-size: 29px;
+    }
+
+    .main-services-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .service-card {
+        padding: 28px 23px;
+    }
+
+    .laboratory-section {
+        padding: 65px 6%;
+    }
+
+    .laboratory-container {
+        grid-template-columns: 1fr;
+        margin-bottom: 70px;
+    }
+
+    .laboratory-image {
+        height: 300px;
+    }
+
+    .laboratory-content h2 {
+        font-size: 31px;
+    }
+
+    .lab-tests-container .section-heading h2 {
+        font-size: 29px;
+    }
+
+    .lab-tests-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .lab-test-card {
+        padding: 25px;
+    }
+
+    .laboratory-benefits {
+        margin-top: 70px;
+    }
+
+    .laboratory-benefits .section-heading h2 {
+        font-size: 29px;
+    }
+
+    .laboratory-benefits-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .access-services-section {
+        padding: 65px 6%;
+    }
+
+    .access-services-section .section-heading h2 {
+        font-size: 29px;
+    }
+
+    .access-steps-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .access-step {
+        padding: 23px;
+        gap: 15px;
+    }
+
+    .step-number {
+        min-width: 42px;
+        height: 42px;
+    }
+
+    .services-faq-section {
+        padding: 65px 6%;
+    }
+
+    .services-faq-section .section-heading h2 {
+        font-size: 29px;
+    }
+
+    .faq-item summary {
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .faq-item p {
+        padding: 0 20px 20px;
+    }
+
+    .services-cta-section {
+        padding: 65px 6%;
+    }
+
+    .services-cta-content h2 {
+        font-size: 30px;
+    }
+
+    .services-cta-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .services-cta-buttons a {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+        margin: auto;
+    }
+
+}
+
+
+/* SMALL MOBILE */
+
+@media (max-width: 400px) {
+
+    .services-hero h1 {
+        font-size: 30px;
+    }
+
+    .services-intro-text h2 {
+        font-size: 25px;
+    }
+
+    .services-intro-image {
+        height: 250px;
+    }
+
+    .laboratory-image {
+        height: 250px;
+    }
+
+    .service-card h3 {
+        font-size: 21px;
+    }
+
+    .services-cta-content h2 {
+        font-size: 27px;
+    }
+
+}

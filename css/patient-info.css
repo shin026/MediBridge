@@ -1,0 +1,559 @@
+
+/* =========================================
+   MEDIBRIDGE - PATIENT INFORMATION -CSS FULL CODE!!!!!!! -ARALIN NYO PLEASEEEE
+========================================= */
+
+/* HERO SECTION- LAGI NALANG HERO SECTION  */
+.patient-hero {
+    min-height: 380px;
+    display: flex;
+    align-items: center;
+    padding: 80px 8%;
+    color: #FFFFFF;
+    background:
+        linear-gradient(rgba(18, 60, 86, 0.88), rgba(18, 60, 86, 0.92)),
+        url("../images/hero-hospital.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.patient-hero-content {
+    max-width: 850px;
+}
+
+.patient-label {
+    display: inline-block;
+    color: #8DE0E5;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.patient-hero h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.patient-hero p {
+    max-width: 650px;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #E8F5F7;
+}
+
+
+/* INTRODUCTIONSS */
+.patient-intro {
+    padding: 90px 8%;
+    background: #FFFFFF;
+}
+
+.patient-intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.patient-intro h2 {
+    color: #123C56;
+    font-size: 36px;
+    margin: 15px 0 25px;
+}
+
+.patient-intro p {
+    color: #5B6B75;
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 15px;
+}
+
+
+/* BEFORE YOUR VISIT- CODE */
+.before-visit {
+    padding: 90px 8%;
+    background: #F5F7F8;
+}
+
+.before-visit .section-heading {
+    margin-bottom: 50px;
+}
+
+.visit-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.visit-card {
+    padding: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E4EAED;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.visit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(18, 60, 86, 0.08);
+}
+
+.visit-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: #E8F5F7;
+    color: #168A96;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.visit-card h3 {
+    color: #123C56;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.visit-card p {
+    color: #64747D;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* APPOINTMENT GUIDE -CODE */
+.appointment-guide {
+    padding: 100px 8%;
+    background: #FFFFFF;
+}
+
+.appointment-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.appointment-content {
+    width: 100%;
+}
+
+.appointment-content h2 {
+    color: #123C56;
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.appointment-content > p {
+    color: #64747D;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.appointment-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.appointment-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 25px;
+    background: #FFFFFF;
+    border: 1px solid #E4EAED;
+    border-radius: 14px;
+    transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.appointment-step:hover {
+    background: #F8FCFC;
+    border-color: #B8DDE1;
+}
+
+.step-number {
+    flex-shrink: 0;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #168A96;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.appointment-step h3 {
+    color: #123C56;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.appointment-step p {
+    color: #64747D;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.appointment-note {
+    margin-top: 35px;
+    padding: 25px;
+    background: #E8F5F7;
+    border-left: 4px solid #168A96;
+    border-radius: 8px;
+}
+
+.appointment-note strong {
+    display: block;
+    color: #123C56;
+    margin-bottom: 8px;
+}
+
+.appointment-note p {
+    color: #526974;
+    line-height: 1.7;
+}
+
+
+/* REQUIRED DOCUMENTS CODE SECTION */
+.documents-section {
+    padding: 90px 8%;
+    background: #F5F7F8;
+}
+
+.documents-section .section-heading {
+    margin-bottom: 50px;
+}
+
+.documents-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.document-card {
+    padding: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E4EAED;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.document-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(18, 60, 86, 0.08);
+}
+
+.document-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: #E8F5F7;
+    color: #168A96;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.document-card h3 {
+    color: #123C56;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.document-card p {
+    color: #64747D;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.documents-note {
+    margin-top: 35px;
+    padding: 25px;
+    background: #E8F5F7;
+    border-left: 4px solid #168A96;
+    border-radius: 8px;
+}
+
+.documents-note strong {
+    display: block;
+    color: #123C56;
+    margin-bottom: 8px;
+}
+
+.documents-note p {
+    color: #526974;
+    line-height: 1.7;
+}
+
+
+/* VISITOR GUIDELINES CODE SECTOPN */
+.visitor-section {
+    padding: 100px 8%;
+    background: #FFFFFF;
+}
+
+.visitor-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.visitor-content h2 {
+    color: #123C56;
+    font-size: 36px;
+    margin: 15px 0 20px;
+}
+
+.visitor-content > p {
+    max-width: 800px;
+    color: #64747D;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.visitor-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.visitor-item {
+    padding: 25px;
+    background: #F5F7F8;
+    border: 1px solid #E4EAED;
+    border-radius: 12px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.visitor-item:hover {
+    transform: translateY(-3px);
+    border-color: #B8DDE1;
+}
+
+.visitor-item h3 {
+    color: #123C56;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.visitor-item p {
+    color: #64747D;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* FAQ SECTION */
+.patient-faq {
+    padding: 90px 8%;
+    background: #F5F7F8;
+}
+
+.faq-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.patient-faq .section-heading {
+    margin-bottom: 45px;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.faq-item {
+    padding: 25px 30px;
+    background: #FFFFFF;
+    border: 1px solid #E4EAED;
+    border-radius: 12px;
+    transition: border-color 0.3s ease;
+}
+
+.faq-item:hover {
+    border-color: #B8DDE1;
+}
+
+.faq-item h3 {
+    color: #123C56;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.faq-item p {
+    color: #64747D;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* CTA SECTION */
+.patient-cta {
+    padding: 80px 8%;
+    background: #168A96;
+    text-align: center;
+}
+
+.patient-cta-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.patient-cta h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.patient-cta p {
+    color: #E8F5F7;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.patient-cta-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.patient-cta .btn-primary {
+    background: #FFFFFF;
+    color: #123C56;
+}
+
+.patient-cta .btn-primary:hover {
+    background: #E8F5F7;
+}
+
+.patient-cta .btn-secondary {
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+.patient-cta .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN - CODE SECTION 
+========================================= */
+
+/* TABLET */
+@media (max-width: 992px) {
+
+    .patient-hero h1 {
+        font-size: 40px;
+    }
+
+    .visit-grid,
+    .documents-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .appointment-guide,
+    .visitor-section {
+        padding: 80px 6%;
+    }
+}
+
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+    .patient-hero {
+        min-height: 320px;
+        padding: 60px 6%;
+    }
+
+    .patient-hero h1 {
+        font-size: 32px;
+    }
+
+    .patient-hero p {
+        font-size: 15px;
+    }
+
+    .patient-intro,
+    .before-visit,
+    .documents-section,
+    .patient-faq {
+        padding: 65px 6%;
+    }
+
+    .patient-intro h2,
+    .appointment-content h2,
+    .visitor-content h2 {
+        font-size: 28px;
+    }
+
+    .visit-grid,
+    .documents-grid,
+    .visitor-list {
+        grid-template-columns: 1fr;
+    }
+
+    .visit-card,
+    .document-card {
+        padding: 25px;
+    }
+
+    .appointment-guide,
+    .visitor-section {
+        padding: 65px 6%;
+    }
+
+    .appointment-step {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .step-number {
+        width: 38px;
+        height: 38px;
+        font-size: 12px;
+    }
+
+    .appointment-step h3 {
+        font-size: 16px;
+    }
+
+    .faq-item {
+        padding: 22px;
+    }
+
+    .patient-cta {
+        padding: 65px 6%;
+    }
+
+    .patient-cta h2 {
+        font-size: 28px;
+    }
+
+    .patient-cta-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .patient-cta-buttons a {
+        width: 100%;
+        text-align: center;
+    }
+}
